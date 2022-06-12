@@ -1,0 +1,263 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.premimum-ini{
+    margin-top:95px;
+    position: relative;
+    min-height: 700px; 
+}
+.premi-background {
+    position: absolute;
+    inset: 0px;
+    background-size: cover;
+    background-position: center center;
+    background-color: #1a1c21;
+    min-height:100%; 
+}
+.premi-logo {
+   width: 344px;
+   margin-left: 35%;
+
+   
+}
+.background-lighting {
+        background-image: linear-gradient(rgba(26, 28, 33, 0.72), rgba(26, 28, 33, 0.95));
+        position: relative;
+        z-index: 1;
+        overflow-x: scroll;
+        background-size: cover;
+        background-position: center center;
+        min-height: 100%; 
+}
+.box-inside-premium {
+margin: 80px 0px;
+}
+
+.heading-evertything {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 23px 0px;
+}
+.experience-real {
+    font-family: Roboto-Medium, sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.38;
+    letter-spacing: 0.64px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 700px;
+}
+.plan-in-premium {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.button-plan-month {
+    padding: 18px 24px 0px;
+    border: none;
+    border-radius: 6px;
+    width: 250px;
+    height: 120px;
+    background-color: rgb(84, 90, 98);
+    margin: 0px 12px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 500;
+    color: rgb(191, 197, 205);
+    padding-bottom: 5px
+}
+.button-plan-month2 {
+    padding: 5px 24px 0px;
+    border: none;
+    border-radius: 6px;
+    width: 250px;
+    height: 140px;
+    background-image: linear-gradient(121deg, rgb(33, 117, 217) 2%, rgb(39, 137, 255) 97%);
+    margin: 0px 12px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: Roboto-Bold, sans-serif;
+    font-size: 24px;
+    line-height: 1.33;
+    text-align: left;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    
+}
+.button-plan-year {
+    padding: 5px 24px 0px;
+    border: none;
+    border-radius: 6px;
+    width: 250px;
+    height: 140px;
+    background-image: linear-gradient(121deg, rgb(33, 117, 217) 2%, rgb(39, 137, 255) 97%);
+    margin: 0px 12px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+.button-plan-year2 {
+    padding: 18px 24px 0px;
+    border: none;
+    border-radius: 6px;
+    width: 250px;
+    height: 120px;
+    background-color: rgb(84, 90, 98);
+    margin: 0px 12px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+/* .plan-innercontent {
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 500;
+    color: rgb(191, 197, 205);
+} */
+.monthly-price {
+display: flex;
+-webkit-box-align: center;
+align-items: center;
+-webkit-box-pack: center;
+justify-content: center;
+width: 160px;
+flex-direction: column;
+}
+.amount-plan{
+-webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+/* .monthly, .amount-plan{
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    font-weight: 500;
+    color: rgb(191, 197, 205);
+    padding-bottom: 5px;
+} */
+.recommended-plan{
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: rgb(255, 164, 36);
+}
+.annual, .annual-amount-plan{
+    font-family: Roboto-Bold, sans-serif;
+    font-size: 24px;
+    line-height: 1.33;
+    text-align: left;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.applycoupon {
+   -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+}
+.applycoupon-inner {
+    display: flex;
+    border: 1.3px dashed rgb(84, 90, 98);
+    background-color: rgb(26, 28, 33);
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    margin-top: 22px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.percentage-icon {
+    width: 20.5px;
+    height: 20.5px;
+}
+.apply-voucher {
+    font-family: Roboto-Regular, sans-serif;
+    font-size: 16px;
+    color: rgb(155, 161, 169);
+    cursor: pointer;
+    padding: 0px 4px;
+    line-height: 1.29px;
+}
+.subscription {
+    cursor: pointer;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+}
+.subscribe-btn {
+    font-family: Roboto-Bold, sans-serif;
+    font-size: 20px;
+    width: 342px;
+    height: 52px;
+    line-height: 23px;
+    font-weight: 700;
+    letter-spacing: 0px; 
+    background-image: linear-gradient( to top, #2175d9, #2789ff);
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.style-year{
+    padding: 18px 24px;
+    border-radius: 6px;
+    width: 250px;
+    height: 150px;
+    background-image: linear-gradient(121deg, rgb(33, 117, 217) 2%, rgb(39, 137, 255) 97%);
+    margin: 0px 12px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+.style-month{
+    padding: 18px 24px;
+    border-radius: 6px;
+    width: 250px;
+    height: 125px;
+    background-color: rgb(84, 90, 98);
+    margin: 0px 12px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+}

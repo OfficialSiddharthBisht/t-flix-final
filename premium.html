@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Styles/premium.css">
+    <link rel="stylesheet" href="./Styles/navbar.css" />
+    <link rel="stylesheet" href="./Styles/footer.css" />
+</head>
+<body>
+    <div id="navbar"></div>
+    <div class="premimum-ini">
+        <div class="premi-background" style=' background-image: url("https://ap2-prod-images.disco-api.com/2021/12/17/28a0606f-f3de-4cc7-a3fd-459500433ec7.jpg");' > 
+        <div class="background-lighting">
+        <div class="box-inside-premium">
+            <img class="premi-logo" src="https://www.discoveryplus.in/2f01db6ab8a816734682c2c805df1779.png" alt="Logo" />
+             <div class="heading-evertything">
+              <h2 class="experience-real">Experience Real Life Entertainment Like Never Before with 40+ Genres On Discovery Plus.</h2>
+             </div>
+            <div class="plan-in-premium">
+                <button class="button-plan-month" onclick="clicked(this)"><div class="plan-price-month">
+            <div class="plan-innercontent">
+              <div class="monthly-price">
+                  <div class="monthly">Monthly</div>
+                  <div class="amount-plan">
+                  <span class="rupees-symbol">₹</span>
+                  <span class="rupees-number">199.00</span></div></div>
+              </div></div></button>
+                
+           
+              <button  class="button-plan-year" onclick="clicked(this)"><div class="plan-price-year">
+               <div class="plan-innercontent">
+              <div class="monthly-price">
+                  <div class="recommended-plan">RECOMMENDED</div>
+                  <div class="annual">ANNUAL</div>
+                  <div class="annual-amount-plan">
+                  <span class="annual-rupees-symbol">₹</span>
+                  <span class="annual-rupees-number">399.00</span></div></div>
+              </div>
+              </div></button>
+            </div>
+    
+            <div class="applycoupon">
+                <div class="applycoupon-inner">
+                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" class="percentage-icon">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.085 19.34a10.262 10.262 0 0 0 5.702 1.729 10.274 10.274 0 0 0 10.262-10.262A10.262 10.262 0 1 0 5.085 19.34zm.496-16.324a9.37 9.37 0 0 1 5.205-1.579 9.38 9.38 0 0 1 9.37 9.37 9.37 9.37 0 1 1-14.575-7.79zm.973 6.886a2.306 2.306 0 1 0 2.562-3.835 2.306 2.306 0 0 0-2.562 3.835zM7.05 6.81A1.414 1.414 0 1 1 8.62 9.16a1.414 1.414 0 0 1-1.57-2.35zm6.688 9.383a2.306 2.306 0 1 1 0-4.613 2.306 2.306 0 0 1 0 4.613zm0-3.72a1.413 1.413 0 1 0 0 2.826 1.413 1.413 0 0 0 0-2.826zm-7 3.973a.446.446 0 0 0 .59-.106l8.11-10.519a.446.446 0 1 0-.706-.545L6.621 15.794a.446.446 0 0 0 .117.651z" fill="#9BA1A9"></path>
+                    </svg>
+                        <h2 class="apply-voucher">Apply Voucher</h2>
+                </div>
+            </div>
+    
+            <div class="subscription">
+                <button class="subscribe-btn" id="#subscribeButton">Subscribe Now</button>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <script>
+              document.querySelector(".subscription").addEventListener("click",(event)=>{
+                  event.preventDefault()
+                   console.log("first")
+                   window.location.href = "../pay.html"
+               })
+               
+           function clicked(e) {
+               let arr = e.className.split("-")
+               console.log(arr)
+               if (arr[2] === "month") {
+                   e.className = e.className+2
+                   let year = document.querySelector(".button-plan-year")
+                   year.className = year.className+2
+               }
+               if (arr[2] === "year2") {
+                    e.className = "button-plan-year"
+                   let year = document.querySelector(".button-plan-month2")
+                   year.className = "button-plan-month"
+               }
+           }
+        </script>
+        <div id="footer-last"></div>
+        <script type="module">
+          import navbar from "./Modules/navbarModule.js";
+          import footer from "./Modules/footerModule.js";
+          let nav = document.getElementById("navbar");
+          let foo = document.getElementById("footer-last");
+          nav.innerHTML = navbar();
+          foo.innerHTML = footer();
+          //
+          function addScript() {
+              setTimeout(() => {
+              var script = document.createElement("script");
+              script.type = "text/javascript"; 
+              script.src = "./Scripts/navbar.js";
+              document.body.append(script); 
+              }, 3000);
+            // return new Promise((resolve, reject) => {
+            
+            //   script.onload = function () {
+            //     resolve(1);
+            //   };
+     
+            };
+            addScript();
+          //
+        </script>
+</body>
+</html>

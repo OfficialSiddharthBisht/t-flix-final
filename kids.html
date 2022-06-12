@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/index.css">
+    <link rel="stylesheet" href="../Styles/navbar.css" />
+    <link rel="stylesheet" href="../Styles/footer.css" />
+    <title>Kids Page</title>
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="card-container"></div>
+    <div id="footer-last"></div>
+    <script type="module">
+      import navbar from "../Modules/navbarModule.js";
+      import footer from "../Modules/footerModule.js";
+      let nav = document.getElementById("navbar");
+      let foo = document.getElementById("footer-last");
+      nav.innerHTML = navbar();
+      foo.innerHTML = footer();
+      //
+      function addScript() {
+          setTimeout(() => {
+          var script = document.createElement("script");
+          script.type = "text/javascript"; 
+          script.src = "../Scripts/navbar.js";
+          document.body.append(script); 
+          }, 3000);
+        // return new Promise((resolve, reject) => {
+        
+        //   script.onload = function () {
+        //     resolve(1);
+        //   };
+ 
+        };
+        addScript();
+      //
+    </script>
+    <script src="../Scripts/kids.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+/* #main-closure{
+  margin-top: 500px;
+} */
+
+.mainClosureCard{
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    height: 470px;
+    margin-top: 100px;
+    position: relative;
+    /* transform: translate((-100%)); */
+    transition: transform 0.45s ease-out 0s;
+    
+
+}
+
+
+.mainClosureCarddivData{
+     /* border: 1px solid blue;  */
+    width:1000px;
+    /* padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+      */
+      margin:5px 5px 5px 5px;
+      
+      
+
+    
+
+}
+
+.title{
+    
+    /* margin-top:60px; */
+    color:#E8E6E3;
+    font: 40px Roboto-Bold, sans-serif;
+}
+.subTitle{
+    color:#ADA69C;
+    font: 18px Roboto-Regular, sans-serif;
+}
+.divImg{
+    /* border: 1px solid purple; */
+    width: 130%;
+
+    /* padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; */
+    /* margin: 5px 5px 5px 5px; */
+   
+}
+.divImg>img{
+    /* border: 1px solid red; */
+    border-radius:5px;
+    
+    width:100%;
+    height: 100%;
+    /* margin: 5px 5px 5px 5px; */
+}
+.divButton{
+    /* border: 1px solid pink; */
+    display: flex;
+    /* justify-content: space-between; */
+    width: 150px;
+    height: 65px;
+    margin-top: 5%;
+}
+.divButton>img{
+    width:100px;
+    /* margin-top: -20px; */
+
+}
+.divButton>p{
+   
+    color:#E8E6E3;
+    font: 20px Roboto-Regular, sans-serif;
+    margin-left: 10%;
+    
+}
+.twoDiv{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content:space-between;
+    width:190px;
+
+}
+.twoDiv>button{
+    color:#ADA69C;
+    font: 12px Roboto-Regular, sans-serif;
+    background-color: #202531;
+    border: none;
+
+}
+
+

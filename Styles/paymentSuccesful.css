@@ -1,0 +1,81 @@
+body{
+    background-color:#161819;
+}
+#logoPicture{
+    /* border: 1px solid black; */
+    background-color: #121317;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    #signBox{
+        /* border: 1px solid red; */
+        width: 300px;
+        margin: auto;
+        margin-top: 60px;
+    }
+    #signBox>h3{
+        color:rgb(232,230,227);
+        font-size:25px;
+        text-align: center;
+        font-family: roboto,sans-serif;
+
+    }
+    #signBox>hr{
+        color:#575d68;
+        background-color:#575d68;
+        border:1px solid #575d68
+    }
+    #signBox>hr:hover{
+        color:rgb(232,230,227);
+       
+    }
+    
+  
+    #video{
+        
+        border: 1px solid blue;
+        cursor: default;
+        color: #575d68;
+        color:rgb(197,192,184);
+        background: #333739;
+        font-weight: 500;
+        border: none;
+        width:300px;
+        height:40px;
+        border-radius: 10px;
+        margin-top: 5px;
+
+    }
+    a{
+        text-decoration: none;
+        color:rgb(197,192,184);
+
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

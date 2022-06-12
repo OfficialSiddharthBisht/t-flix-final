@@ -1,0 +1,231 @@
+body{
+   background-color: #333739;
+}
+#mainDiv{
+    /* border:1px solid black; */
+    display: flex;
+    height:800px;
+    width:1200px;
+    margin: auto;
+    position: absolute;
+    margin-left: 200px;
+    background-color:#000000bf;
+
+
+
+}
+#imageSmall{
+    /* border:1px solid red ; */
+    /* height: 200px; */
+    /* position: relative; */
+    width: 400px;
+    height: 200px;
+    /* margin-left: 200px; */
+    /* margin-top: 200px; */
+    /* padding-top:250px; */
+    /* padding-bottom: 50px; */
+
+     
+
+}
+#imageSmall>img{
+    width: 100%;
+    height: 100%;
+    /* margin-top: 20px; */
+    /* border: 1px solid blue; */
+    margin-left: 100px;
+
+
+}
+#dataSmall{
+    position:relative ;
+    margin-left: 200px;
+    /* margin-top:20px;  */
+     margin-right: 100px; 
+     /* border: 1px solid blue; */
+     width: 1200px;
+}
+#dataSmall>h4{
+    font: 14px roboto-regular,sans serif;
+    color:#9E9689;
+}
+#dataSmall>p{
+    font: 20px roboto-Bold,sans serif;
+    color:#E8E6E3;
+}
+#dataSmall>button{
+    background-color: rgb(0,76,167);
+    color:rgb(232,230,227);
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+
+}
+#getInTouch{
+    position: relative;
+    margin-left: 660px;
+    margin-top: 200px;
+    font: 14px roboto-regular,sans serif;
+    color:#9E9689;
+
+}
+#subscribePremium{
+    display: flex;
+    /* border:1px solid black; */
+    justify-content: space-between;
+    /* width:100%; */
+    position: relative;
+     margin-left: 200px; 
+     margin-right:120px;
+     margin-top:130px;
+    
+
+}
+#subscribe{
+    font: 18px roboto-Bold,sans serif;
+    color:#E8E6E3;
+    margin-left: 15px;
+
+}
+#goPremium>button{
+  margin-top: 10px;
+  font: 14px roboto-regular,sans serif;
+  height: 40px;
+  color:#E8E6E3;
+  background-color:#333739 ;
+  border: none;
+  border-radius: 6px;
+  width:170px;
+
+  /* width: 0px; */
+
+}
+#BharatKiData{
+    /* border: 1px solid black; */
+    margin-left: 200px;
+    margin-top:16px;
+    width: 1200px;
+}
+#bharatImg{
+    /* border: 1px solid red; */
+    /* display: flex; */
+    justify-content:space-between;
+    width:300px;
+    font-size: 27px;
+    font:  roboto-regular,sans serif;
+    color:#E8E6E3;
+}
+
+#favouriteShare{
+    /* border: 1px solid red; */
+    width:400px;
+    display: flex;
+    
+    margin-left: 800px;
+    margin-top: -34px;
+    /* width:20px */
+}
+#favourite{
+    width:490px;
+    margin-left: 90px;
+    border: 12px roboto-regular,sans serif;
+    color:#9F978B;
+    background-color: #333739;
+    border:1px solid #9E9689;
+}
+#share{
+    width:490px;
+    margin-left: 60px;
+    font: 17px roboto-regular,sans serif;
+    color:#9F978B;
+    border:1px solid #9E9689;
+    background-color: #333739;
+    height: 30px;
+}
+
+#gaganyaan>p{
+color:#C4BFB7;
+font:14 px Roboto-Regular, sans-serif;
+}
+#gaganyaan>h4{
+color:#9E9689;
+font:14 px Roboto-Regular, sans-serif;
+}
+#gaganyaan>h3{
+    color:#ADA69C;
+    font:14 px Roboto-Regular, sans-serif;
+    
+    }
+    #firstHr{
+        margin-left: 200px; 
+        margin-right: 100px;
+        background-color: #202429;
+        border: 1px solid #202429;  
+    
+    }
+    #episodrShorts{
+        /* border: 1px solid red; */
+        display: flex;
+        width:300px;
+        margin-left:200px ;
+        gap:20%;
+        font:15px Roboto-Bold, sans-serif;
+        color:#E8E6E3;
+
+    }
+    #lastHr{
+        margin-left: 200px; 
+        margin-right: 100px;
+        background-color: #9E9689;
+        border: 1px solid #202429;
+    }
+    #videoGagaan{
+        /* border: 1px solid red; */
+        height:200px;
+        width: 290px;
+        margin-left: 200px;
+        margin-top: 20px;
+    }
+    #videoGagaan>img{
+        height: 100%;
+        width:100%;
+        border-radius:10px;
+
+    }
+    #videoGagaan>p{
+        margin-top: -1px;
+        font-size: 15px;
+        font:15px Roboto-Bold, sans-serif;
+        color:#E8E6E3;
+        
+    }
+    #videoGagaan>h4{
+        margin-top: -4px;
+        color:#9E9689;
+        font:17px Roboto-Regular, sans-serif;
+    }
+     #mainimagedata{
+        /* border: 1px solid green; */
+        display: flex;
+        
+        width:1200px;
+        margin-left: 200px;
+        padding-top: 200px;
+        
+      }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+

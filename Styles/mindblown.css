@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(26, 28, 33);
+}
+#mindblown-card-container {
+  margin: 85px 10% 25px 10%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.card img {
+  border-radius: 15px;
+  width: 100%;
+}
+.card p {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: white;
+  font-weight: 700;
+}
+.card :hover {
+  width: 98%;
+  /* box-shadow: rgba(232, 232, 242, 0.25) 0px 30px 60px -12px inset, rgba(202, 197, 197, 0.3) 0px 18px 36px -18px inset; */
+}
+.card {
+  /* border: 2px solid red; */
+  position: relative;
+  text-align: center;
+  color: white;
+}
+/* @media (max-width:1000){
+  body{
+    background-color: aqua;
+  }
+  #mindblown-card-container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+} */

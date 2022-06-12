@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>explore</title>
+    <link rel="stylesheet" href="Styles/explore.css">
+    <link rel="stylesheet" href="./Styles/navbar.css" />
+    <link rel="stylesheet" href="./Styles/footer.css" />
+</head>
+<body>
+    <div id="liveChannels">
+    <h2 >Live Channels</h2>
+</div>
+<div id="navbar"></div>
+       <div id="logoContainer">
+
+           <img src="./image-explore/discovery.jpg" alt="">
+           <img src="./image-explore/dis2.jpg" alt="">
+           <img src="./image-explore/id.jpg" alt="">
+           <img src="./image-explore/animalpalnet.jpg" alt="">
+           <img src="./image-explore/tlc.jpg" alt="">
+           <img src="./image-explore/dk.jpg" alt="">
+           <img src="./image-explore/turbo.jpg" alt="">
+           <img src="./image-explore/eurosport.jpg" alt="">
+           <img src="./image-explore/food.jpg" alt="">
+           <img src="./image-explore/dmax.jpg" alt="">
+           <img src="./image-explore/trvl.jpg" alt="">
+
+
+       </div>
+       <div id="explore">
+        <h2 >Explore Shows and Full Episodes</h2>
+    </div>
+       <div id="exploredownbox">
+        <img src="./image-explore/bbc.jpg" alt="">
+        <img src="./image-explore/a&e.jpg" alt="">
+        <img src="./image-explore/allaccess.jpg" alt="">
+        <img src="./image-explore/mind.jpg" alt="">
+       </div>
+       <div id="footer-last"></div>
+       <script type="module">
+        import navbar from "./Modules/navbarModule.js";
+        import footer from "./Modules/footerModule.js";
+        let nav = document.getElementById("navbar");
+        let foo = document.getElementById("footer-last");
+        nav.innerHTML = navbar();
+        foo.innerHTML = footer();
+        //
+        function addScript() {
+            setTimeout(() => {
+            var script = document.createElement("script");
+            script.type = "text/javascript"; 
+            script.src = "./Scripts/navbar.js";
+            document.body.append(script); 
+            }, 3000);
+          // return new Promise((resolve, reject) => {
+          
+          //   script.onload = function () {
+          //     resolve(1);
+          //   };
+   
+          };
+          addScript();
+        //
+      </script>
+      <script src="./Scripts/landingpage.js"></script>
+</body>
+<script src="Scripts/explore.css"></script>
+</html>

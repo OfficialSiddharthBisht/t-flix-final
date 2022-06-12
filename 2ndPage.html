@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd Page</title>
+    <link rel="stylesheet" href="./Styles/2ndPage.css">
+    <link rel="stylesheet" href="./Styles/navbar.css" />
+    <link rel="stylesheet" href="./Styles/footer.css" />
+</head>
+<div id="navbar"></div>
+<body>
+    <div id="bigImageDiv">
+        <img  id="bigImage" src="" alt="">
+    </div>
+    <div id="legends">
+        <h1 id="cardTitle">Legends of the Ramayana with Amish</h1>
+    </div>
+  
+     <div id="favouriteShare">
+        <button id="favourite">Favourite</button>
+        <button id="share">Share</button>
+     </div>
+
+     
+     <div id="languages">
+         <div>
+            <h1>Languages</h1>
+            <h6>Telugu</h6>
+            <h6>Bengali</h6>
+            <h6>Malayalam</h6>
+            <h6>Hindi</h6>
+            <h6>English</h6>
+         </div>
+         
+
+     </div>  
+     <div id="kanadaTamil">
+        <h6>Kanada</h6>
+        <h6>Tamil</h6>
+      </div>  
+
+        <div id="peopleCulture">
+            
+                <li>Civilizations</li>
+                <li>People & Cultures</li>
+                <li>History</li>
+            
+
+        </div>
+
+      
+
+
+
+        <button id="watchNow">Watch Now</button>
+        <div id="AmishTripathi">
+            <p id="cardSubTitle">Amish Tripathi traverses 5,000 kilometers in the footsteps of Rama.</p>
+            <p>Age Rating : U</p>
+        </div>
+    
+
+        <hr id="hrLine">
+       
+       
+
+        <div id="episodeShorts">
+            <h2>Episode</h2>
+            <h2>Shorts</h2>
+        </div>
+        <hr id="firstHr">
+        <div id="footer-last"></div>
+        <script type="module">
+          import navbar from "./Modules/navbarModule.js";
+          import footer from "./Modules/footerModule.js";
+          let nav = document.getElementById("navbar");
+          let foo = document.getElementById("footer-last");
+          nav.innerHTML = navbar();
+          foo.innerHTML = footer();
+          //
+          function addScript() {
+              setTimeout(() => {
+              var script = document.createElement("script");
+              script.type = "text/javascript"; 
+              script.src = "./Scripts/navbar.js";
+              document.body.append(script); 
+              }, 3000);
+            // return new Promise((resolve, reject) => {
+            
+            //   script.onload = function () {
+            //     resolve(1);
+            //   };
+     
+            };
+            addScript();
+          //
+        </script>
+        <script src="./Scripts/landingpage.js"></script>
+</body>
+<script src="./Scripts/2ndPage.js"></script>
+</html>

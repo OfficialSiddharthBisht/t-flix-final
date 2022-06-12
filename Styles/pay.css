@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+
+body{
+    
+    background-color: #1A1C21;
+}
+#logoPicture{
+    /* border: 1px solid black; */
+    background-color: #121317;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+    }
+    #lineFirst{
+        border: .1px solid #838991;
+    }
+    #payment{
+        height: 560px;
+        width:350px;
+        background-color: #121317;
+        margin-top: 20px;
+        /* border: 1px solid red; */
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: auto;
+
+    }
+    #payment *{
+        font-family:Roboto,sans-serif ;
+    }
+    #payment>h1{
+        text-align: center;
+        color:#F8F8F9;
+        font-family:Roboto,sans-serif ;
+        font-size:26px ;
+
+
+
+    }
+    #rupees{
+        /* border: 1px solid black; */
+        height:50px;
+        padding-left: 7px;
+        padding-right:7px;
+        border: 1px solid #383e47;
+        display: flex;
+        justify-content: space-between;
+        color:#F8F8F9;
+        /* font-size:18px roboto-regular,sans-serif; */
+    
+    }
+    #paymentMethods{
+        color:#F8F8F9;
+        /* font-size:18px roboto-regular,sans-serif;
+         */
+         font-family:Roboto,sans-serif ;
+        font-size:16px ;
+    }
+    #creditCard{
+        /* border: 1px solid red;; */
+        height:60px;
+        padding-left: 5px;
+        margin-bottom: 10px;
+        background-color: #383e47;
+        /* display: flex; */
+        padding-top: 2px;
+
+    }
+    #creditCard>div>p{
+        color:#F8F8F9;
+        font-size:18px roboto-regular,sans-serif;
+    }
+    #creditImage{
+        /* border: 1px solid blue; */
+        display: flex;
+        height:20px;
+        gap:2px;
+
+        margin-top: -16px;
+    }
+    #creditImage>img{
+        width: 30px;
+        height:18px;
+        margin-top: 2px;
+    }
+    #payVia{
+        /*
+         border: 1px solid purple; */
+          height:50px;
+         margin-bottom: 10px;
+        background-color: #383e47;
+
+    }
+    #payVia>p{
+        color:#F8F8F9;
+        font-size:18px roboto-regular,sans-serif;
+        padding-left: 5px;
+        padding-top: 16px;
+    }
+    #enterCode{
+        /* border: 1px solid green; */
+        margin-bottom: 10px;
+        height:50px;
+        /* margin-bottom: 10px; */
+        color:#F8F8F9;
+        padding-top: 10px;
+
+        padding-left: 5px;
+        background-color: #383e47;
+        font-size:18px roboto-regular,sans-serif;
+    }
+    
+    #paymentWill>p{
+        color:#838991;
+        text-align: justify;
+        font-size: 12px;
+         font-family:  roboto-regular,sans-serif;   
+        /* font-size:12px roboto-regular,sans-serif;   */
+    }
+    
+    #yourSubscription>p{
+        color:#838991;
+        text-align: justify;
+        /*font-size:18px roboto-regular,sans-serif;   */
+        font-size: 12px;
+        font-family:  roboto-regular,sans-serif;   
+    }
+   
+    #youCan>p{
+         color:#838991;
+         text-align: justify;
+         font-size: 12px;
+         font-family:  roboto-regular,sans-serif;   
+    }
+

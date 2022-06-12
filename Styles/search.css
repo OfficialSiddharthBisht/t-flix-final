@@ -1,0 +1,15 @@
+.searchCard{
+/* width: 100px; */
+}
+.searchCard>img{
+    width: 100px;
+}
+.searchCard>h3{
+    /* width: 100px; */
+    color: aliceblue;
+    font-size: 30px;
+}
+.searchCard>p{
+    color: white;
+    font-size: 10px;
+}

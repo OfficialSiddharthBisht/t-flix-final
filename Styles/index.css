@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(26, 28, 33);
+  }
+  #card-container {
+    margin-top: 50px;
+    color: white;
+    margin: auto;
+    width: 95%;
+  }
+  .card-row{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2%;
+    gap: 1%;
+  }
+  .card img {
+    border-radius: 15px;
+    width: 100%;
+  }
+  .card p {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+    font-weight: 700;
+  }
+  .card :hover {
+    width: 98%;
+    /* box-shadow: rgba(232, 232, 242, 0.25) 0px 30px 60px -12px inset, rgba(202, 197, 197, 0.3) 0px 18px 36px -18px inset; */
+  }
+  .card {
+    /* border: 2px solid red; */
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  #top-card{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  .container-of-card{
+    margin-top: 50px;
+  }
+
+  @media screen and (max-width: 800px) {
+    .card-row{
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .card {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .card-row{
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .card {
+      width: 100%;
+    }
+  }
+  /* #top-card .card-row{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: space-between;
+    margin: 2px solid red;
+    background-color: aqua;
+    width: 100%;
+  }
+  #top-card *{
+    justify-content: space-between;
+  } */

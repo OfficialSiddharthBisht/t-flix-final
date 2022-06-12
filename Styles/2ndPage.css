@@ -1,0 +1,154 @@
+body{
+    background-color: #1A1c21;
+}
+ 
+#bigImageDiv{
+    /* border: 1px solid red; */
+    margin-left:230px;
+    
+}
+#bigImageDiv>img{
+    width: 70%;
+    border-radius: 10px;
+}
+
+#legends{
+   /* border: 1px solid red; */
+   width:600px;
+   margin-left: 230px;
+   height:40px;
+   
+}
+#legends>h1{
+    margin-top: -2px;
+    font-size: 28px roboto-regular,sans-serif;
+    color:#ffffff;
+}
+#favouriteShare{
+    /* border: 1px solid red; */
+    width:440px;
+    display: flex;
+    
+    margin-left: 800px;
+    margin-top: -38px;
+    /* width:20px */
+}
+#favourite{
+    width:490px;
+    margin-left: 90px;
+    border: 12px roboto-regular,sans serif;
+    color:#9F978B;
+    background-color: #333739;
+    border:1px solid #9E9689;
+}
+#share{
+    width:500px;
+    margin-left: 60px;
+    font: 17px roboto-regular,sans serif;
+    color:#9F978B;
+    border:1px solid #9E9689;
+    background-color: #333739;
+    height: 30px;
+}
+#languages{
+    /* border: 1px solid red; */
+    margin-left: 890px;
+    height:40px;
+}
+#languages>div{
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap:10px;
+    width:360px;
+    height:100%;
+    
+}
+#languages>div>h1{
+    font-size: 14px;
+    padding-top: 12px;
+    color:#9BA1A9;
+}
+#languages>div>h6{
+    color:#9F978B;
+    font-family: Roboto-Regular", sans-serif;
+}
+#kanadaTamil{
+    /* border: 1px solid black; */
+    color:#9F978B;
+    display: flex;
+    height:30px;
+    width:80px;
+    justify-content: space-between;
+    margin-left: 980px;
+    font-family: Roboto-Regular", sans-serif;
+}
+#kanadaTamil>h6{
+   margin-top: 5px;
+   
+}
+#peopleCulture{
+    display:flex;
+    flex-direction: row;
+    margin-left: 230px;
+    /* border: 1px solid blue; */
+    width:400px;
+    margin-top: -50px;
+    color:#9BA1A9;
+}
+.styles-genres-2rv2ERPX {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#watchNow{
+    padding: 10px 10px 10px 10px;
+    /* width: 100%; */
+    font-weight: 600;
+    background-color: #237ce6;
+    border: none;
+    width :125px;
+    /* border: 1px solid green; */
+    /* margin: 0 1%;
+     */
+     margin-left: 230px;
+    margin-top: 20px;
+     height:35px;
+    color: white;
+    border-radius: 6px;
+    font:16px Roboto-Regular,Sans-Serif;
+}
+#AmishTripathi{
+    /* border: 1px solid red; */
+    width: 600px;
+    
+    margin-left: 230px;
+    font:14 px Roboto-Regular,sans-serif;
+    color:#9BA1A9;
+}
+#episodeShorts{
+    /* border:1px solid blue; */
+    display: flex;
+    margin-left: 230px;
+    width:200px;
+    justify-content: space-between;
+    font:14 px Roboto-Bold,sans-serif;
+    color:#9BA1A9;
+
+}
+
+#hrLine{
+    /* -left: 230px; */
+    width:1000px;
+    margin-left: 220px;
+   border: 0.1px solid #333739;
+ }
+
+#firstHr{
+    width:1000px;
+    margin-left: 220px;
+   border: 0.1px solid #333739;
+}
+

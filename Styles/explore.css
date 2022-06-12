@@ -1,0 +1,54 @@
+body{
+   background-color: rgb(26,28,33);
+}
+#logoContainer{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap:0.4vw;
+    width:1300px;
+    margin: auto;
+   
+}
+#logoContainer>img{
+   width:100%;
+   height:100%;
+   border-radius: 10px;
+}
+#liveChannels{
+   /* border: 1px solid red; */
+   width:300px;
+   margin-left: 110px;
+   height:60px;
+   /* padding-top: 2px; */
+   font:20px roboto-regular, sans-serif;
+   color:#E8E6E3;
+
+}
+#explore{
+    /* border: 1px solid red; */
+    width:500px;
+    margin-left: 110px;
+    height:70px;
+    padding-top: 20px;
+    margin-top: 10px;
+    font:20px roboto-regular, sans-serif;
+   color:#E8E6E3;
+
+}
+#exploredownbox{
+    /* border: 1px solid blue; */
+    display: flex;
+    width:200px;
+    margin-left: 105px; 
+   
+    /* margin-top: 40px;  */
+  
+}
+#exploredownbox>img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+

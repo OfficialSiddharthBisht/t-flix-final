@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="./Styles/thirdpage.css">
+     <link rel="stylesheet" href="./Styles/navbar.css" />
+    <link rel="stylesheet" href="./Styles/footer.css" />
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="mainDiv"></div>
+        <div id="mainimagedata">
+        <div id="imageSmall">
+            <img src="./error.jpg" alt="">
+        </div>
+        <div id="dataSmall">
+            <h4>ERROR CODE: SONIC-API MISSING PACKAGE</h4>
+            <P>You will need to be a premium member to watch this video</P>
+             <button>Go Premium</button>
+        </div>
+    </div>
+        <div id="getInTouch">
+            <p>Get in touch with us at hello@discovery.com</p>
+        </div>
+        <div id="subscribePremium">
+            <div id="subscribe">
+                <p>Subscribe now and go 100% Ad Free</p>
+            </div>
+            <div id="goPremium">
+                <button>Go Premium</button>
+            </div>
+        </div>
+
+        <div id="BharatKiData">
+            <div id="bharatImg">
+                <img src="" alt=""
+                <h1>Bharat ki Antariksh Udaan</h1>
+            </div>
+             <div id="favouriteShare">
+                <button id="favourite">Favourite</button>
+                <button id="share">Share</button>
+             </div>    
+               
+                 <div id="gaganyaan">
+                <p>Gaganyaan: Bharat Ki Antariksh Udaan</p>
+                <h4>India's brightest minds are set to chart new paths in space... and history.</h4>
+                  <h3 >Age Rating: U</h3>
+                </div>
+           
+        </div>
+         <hr id="firstHr">
+        <div id="episodrShorts">
+            <h2>Episodes</h2>
+            <h2>Shorts</h2>
+            
+        </div>
+        <hr id="lastHr">
+        <div id="videoGagaan">
+           <img src="https://www.outlookhindi.com/public/uploads/article/gallery/d3d1a5c5cc88e13e451d88de337b55f7_342_660.jpg" alt=""> 
+           <p>Gaganyaan: Bharat Ki Antariksh Udaan</p>
+           <h4>India's brightest minds are set to chart new paths in space...</h4>
+        </div>
+        <div id="footer-last"></div>
+    <script type="module">
+      import navbar from "./Modules/navbarModule.js";
+      import footer from "./Modules/footerModule.js";
+      let nav = document.getElementById("navbar");
+      let foo = document.getElementById("footer-last");
+      nav.innerHTML = navbar();
+      foo.innerHTML = footer();
+      //
+      function addScript() {
+          setTimeout(() => {
+          var script = document.createElement("script");
+          script.type = "text/javascript"; 
+          script.src = "./Scripts/navbar.js";
+          document.body.append(script); 
+          }, 3000);
+        // return new Promise((resolve, reject) => {
+        
+        //   script.onload = function () {
+        //     resolve(1);
+        //   };
+ 
+        };
+        addScript();
+      //
+    </script>
+    <script src="./Scripts/landingpage.js"></script>
+
+    
+</body>
+<script src="./Scripts/thirdpage.js"></script>
+</html>
