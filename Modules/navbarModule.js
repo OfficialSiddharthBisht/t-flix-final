@@ -11,19 +11,18 @@ function navbar(){
       <div id="secondBox">
           <a hrf="index.html">
           <img
-          src="../Logo/logo.png"
-          alt="Logo" height="50" width="150"
+          src="tflix.jpeg"
+          alt="Logo" height="70" width="180"
         />
         </a>
       </div>
 
       <div id="thirdBox">
         <div>
-        <a href="index.html">Home</a>
-        <a href="explore.html">Explore</a>
-        <a href="kids.html">Kids</a>
-        <a href="#">Shorts</a>
-        <a href="mindblown.html">Mindblown</a>
+        <a href="./index.html">Home</a>
+        <a href="./explore.html">Explore</a>
+        <a href="./kids.html">Kids</a>
+        <a href="./mindblown.html">Mindblown</a>
       </div>
     </div>
 
