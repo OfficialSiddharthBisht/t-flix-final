@@ -23,6 +23,7 @@ function navbar(){
         <a href="./explore.html">Explore</a>
         <a href="./kids.html">Kids</a>
         <a href="./mindblown.html">Mindblown</a>
+        
       </div>
     </div>
 
